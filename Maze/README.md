@@ -10,7 +10,10 @@ It contains Anti-debugging, String/data encryption, runtime decrypt, Code Virtua
 First it call function at offset 0x518AD that decrypts the code in offset 0x1000. The whole decryption logic is obfuscated using Code Vitualization.
 I wrote a dissassmbler to deobfuscate the virtualized code to look out where the decrypted code is stored.
 
+  ![screenshot](screenshots/01.png)
+
 - below is the screenshot of the deobfuscated virtualized code that decrypts the code in offset 0x1000
+- 
   ![screenshot](screenshots/1.png)
 
 - Then at offset 0x5172A it calls a function that decrypts table containing dll names to stack.
