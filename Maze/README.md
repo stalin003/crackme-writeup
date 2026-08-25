@@ -18,7 +18,6 @@ I wrote a dissassmbler to deobfuscate the virtualized code to look out where the
 
 - Then at offset 0x5172A it calls a function that decrypts table containing dll names to stack.
 Then loads all the dll using LdrLoadDll function and store all the dlls base address as table in data section offset 0x53360.
-To find the LdrLoadDll function from ntdll it uses API hashing technique.
 
   ![screenshot](screenshots/2.png)
 
