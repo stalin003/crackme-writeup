@@ -13,7 +13,7 @@ I wrote a dissassmbler to deobfuscate the virtualized code to look out where the
   ![screenshot](screenshots/01.png)
 
 - below is the screenshot of the deobfuscated virtualized code that decrypts the code in offset 0x1000
-- 
+  
   ![screenshot](screenshots/1.png)
 
 - Then at offset 0x5172A it calls a function that decrypts table containing dll names to stack.
