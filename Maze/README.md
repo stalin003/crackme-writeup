@@ -48,7 +48,7 @@ So patch the thread creation or kill the thread
 
   ![screenshot](screenshots/7.png)
 
-- Even after the thread creation there is single time check for being debugged.
+- Even after the thread creation there is two time check for being debugged by the function at offset 0x515A8, 515D5.
 - just patch it on memory or change return value eax = 0.
 
   ![screenshot](screenshots/9.png)
